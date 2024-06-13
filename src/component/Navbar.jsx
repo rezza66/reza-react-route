@@ -4,7 +4,7 @@ function NavigationBar() {
   return (
     <Navbar expand="lg" className="bg-primary w-100 " data-bs-theme="dark">
       <Container>
-        <Navbar.Brand href="/home" className="fs-3">
+        <Navbar.Brand href="/" className="fs-3">
           Omezapresent
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

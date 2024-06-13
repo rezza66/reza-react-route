@@ -14,7 +14,7 @@ function App() {
         <NavigationBar />
         <div className="content">
           <Routes>
-              <Route exact path="/home" element={<Home />} />
+              <Route exact path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />
           </Routes>
